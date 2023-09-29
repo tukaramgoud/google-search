@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.list-item-style {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.para-name {
+  font-family: Roboto;
+  color: #64748b;
+  font-size: 10px;
+}
+@media screen and (min-width: 768px) {
+  .para-name {
+    font-size: 15px;
+  }
+}
+.arrow-sizing {
+  height: 20px;
+}
+.button-styling {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
